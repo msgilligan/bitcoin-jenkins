@@ -1,3 +1,6 @@
 [submodule "bitcoin"]
 	path = bitcoin
 	url = git@github.com:mastercoin-MSC/mastercore.git
+[submodule "bitcoin-spock"]
+	path = bitcoin-spock
+	url = https://github.com/msgilligan/bitcoin-spock
