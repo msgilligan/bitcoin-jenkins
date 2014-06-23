@@ -15,3 +15,4 @@ $BTCD -server -regtest -datadir=regtest-datadir -debug > logs/bitcoin.log &
 cd bitcoin-spock
 ./gradlew test
 
+kill %1
