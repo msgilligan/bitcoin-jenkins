@@ -1,6 +1,3 @@
-[submodule "bitcoin"]
-	path = bitcoin
-	url = https://github.com/mastercoin-MSC/mastercore
 [submodule "bitcoin-spock"]
 	path = bitcoin-spock
 	url = https://github.com/msgilligan/bitcoin-spock
