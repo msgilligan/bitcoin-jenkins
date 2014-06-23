@@ -3,6 +3,7 @@ set -x
 
 # Assume bitcoind built elsewhere and coied by Jenkins Copy Artifact plugin
 BTCD=copied-artifacts/src/bitcoind
+chmod +x $BTCD
 
 # Run Bitcoin in regtest mode
 mkdir -p regtest-datadir
