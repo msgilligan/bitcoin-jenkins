@@ -1,8 +1,10 @@
 #!/bin/sh
 set -x
 
+# Assume bitcoind built elsewhere and coied by Jenkins Copy Artifact plugin
+BTCD=copied-artifacts/src/bitcoind
+
 # Run Bitcoin in regtest mode
-BTCD=bitcoin/src/bitcoind
 mkdir -p regtest-datadir
 cp bitcoin.conf regtest-datadir
 mkdir logs
