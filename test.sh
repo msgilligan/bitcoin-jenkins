@@ -13,7 +13,7 @@ chmod +x $BTCD
 # Run Bitcoin in regtest mode
 mkdir -p regtest-datadir
 cp bitcoin.conf regtest-datadir
-mkdir logs
+mkdir -p logs
 $BTCD -server -regtest -datadir=regtest-datadir -debug > logs/bitcoin.log &
 BTCPID=$!
 
