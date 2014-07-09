@@ -19,7 +19,7 @@ BTCPID=$!
 
 # Run integration tests
 cd bitcoin-spock
-./gradlew test
+./gradlew test --tests com.msgilligan.bitcoin.rpc*
 
 exit $?
 
